@@ -77,5 +77,6 @@ float matrix_max(struct Matrix mat)
             max=(max>val?max:val);
         }        
     }
+    //返回值
     return max;
 }
