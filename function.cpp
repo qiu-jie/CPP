@@ -7,6 +7,7 @@ struct Matrix{
     int cols;//列
     float * pData;
 };
+//函数的声明，告诉编译器
 float matrix_max(struct Matrix mat);
 
 int main()
